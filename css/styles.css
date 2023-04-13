@@ -10,14 +10,14 @@ html {
   margin: 0;
 }
 
-body{
+body {
   background-color: #e3d5ca;
 }
 
 img {
-  width: 100%; 
+  width: 100%;
   max-width: 256px;
-  height: auto; 
+  height: auto;
 }
 
 .sticky {
@@ -25,6 +25,8 @@ img {
   display: flex;
   flex-direction: column;
   margin: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -82,18 +84,18 @@ main {
   cursor: pointer;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 720px) {
   .column1 {
     grid-column: 1;
-    margin-bottom: 20px; 
-    text-align: center; 
+    margin-bottom: 20px;
+    text-align: center;
   }
 
-  .column2{
-    grid-column: 1; 
+  .column2 {
+    grid-column: 1;
   }
 
-  .column3{
-    grid-column: 1; 
+  .column3 {
+    grid-column: 1;
   }
 }
